@@ -1,18 +1,21 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import MainLayout from "./Layout/MainLayout.jsx";
 
 let router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world</div>, 
+    element: <MainLayout/>,
+    children:[
+      {
+        path: "/",
+        element: <Navbar/>
+      }
+    ]
   },
 ]);
-
-
-const root = document.getElementById("root");
-
 
 ReactDOM.createRoot(root).render(
   <RouterProvider router={router} />
