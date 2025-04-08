@@ -1,12 +1,18 @@
 import React from 'react';
-import Navbar from "./Navbar.jsx";
-
+import Navbar from "./navbar.jsx";
+import Home from "./Home.jsx";
+import Footer from "./Footer.jsx";
+import About from "./About.jsx";
 
 function MainLayout() {
   return (
     <>  
      <Navbar/>
-      <div className='text-white'>Hello world main</div>
+
+      <Home/>
+      <About/>
+    
+      <Footer/>
        </>
       
   );
