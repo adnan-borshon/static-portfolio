@@ -4,6 +4,8 @@ import Home from "./Home.jsx";
 import Footer from "./Footer.jsx";
 import About from "./About.jsx";
 
+
+
 function MainLayout() {
   return (
     <>  
@@ -11,7 +13,7 @@ function MainLayout() {
 
       <Home/>
       <About/>
-    
+     
       <Footer/>
        </>
       
