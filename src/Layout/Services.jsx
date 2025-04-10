@@ -4,7 +4,7 @@ import {UIUX} from "/src/images/Uiux.png";
 import {frontEnd} from "/src/images/frontend.png";
 import {backEnd} from "/src/images/backend.png";
 
-function services() {
+function Services() {
   return (
    <section id="services" >
 
@@ -34,4 +34,4 @@ function services() {
   );
 }
 
-export default services;
+export default Services;

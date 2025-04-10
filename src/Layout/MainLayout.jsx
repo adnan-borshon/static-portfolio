@@ -13,7 +13,7 @@ function MainLayout() {
 
       <Home/>
       <About/>
-     
+      
       <Footer/>
        </>
       

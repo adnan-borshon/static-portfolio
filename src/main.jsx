@@ -10,6 +10,7 @@ import Navbar from "./Layout/navbar.jsx";
 import Home from "./Layout/Home.jsx";
 import About from "./Layout/About.jsx";
 
+
 let router = createBrowserRouter([
   {
     path: "/",
@@ -21,7 +22,7 @@ let router = createBrowserRouter([
       },
       {
         path: "/about",
-        element:<About/>
+        element: <About/>,
       }
     ]
    
