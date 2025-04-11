@@ -1,8 +1,11 @@
 import React from 'react';
-import myImage from '/src/images/PXL_20240114_134919861.PORTRAIT~4.jpg';
+import myImage from '/images/PXL_20240114_134919861.PORTRAIT~4.jpg';
+import About from './About';
+import Services from './services';
 
 function Home() {
   return (
+ <>
    <section id="home">
     <div className="hero w-full mx-10 my-20 h-auto">
   <div className="hero-content flex-col justify-self-auto lg:flex-row-reverse">
@@ -23,6 +26,15 @@ function Home() {
   </div>
 </div>
    </section>
+   <section>
+    <About/>
+   </section>
+
+   <section>
+    <Services/>
+   </section>
+  
+ </>
   );
 }
 

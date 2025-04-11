@@ -6,7 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import MainLayout from "./Layout/mainLayout.jsx";
-import Navbar from "./Layout/navbar.jsx";
+import Navbar from "./Layout/Navbar.jsx";
 import Home from "./Layout/Home.jsx";
 import About from "./Layout/About.jsx";
 
@@ -22,8 +22,10 @@ let router = createBrowserRouter([
       },
       {
         path: "/about",
+      
         element: <About/>,
-      }
+      },
+    
     ]
    
   },

@@ -1,9 +1,12 @@
 import React from "react";
-import myImage from "/src/images/PXL_20240114_134919861.PORTRAIT~4.jpg";
+import myImage from "/images/PXL_20240114_134919861.PORTRAIT~4.jpg";
+import Home from "./Home.jsx";
 
 function About() {
   return (
-    <section id="about">
+<>
+
+<section id="about">
       <div className="hero w-full mx-10 my-20 h-auto">
         <div className="hero-content flex-col justify-self-auto lg:flex-row">
           <div className="avatar">
@@ -66,6 +69,7 @@ function About() {
         </div>
       </div>
     </section>
+</>
   );
 }
 

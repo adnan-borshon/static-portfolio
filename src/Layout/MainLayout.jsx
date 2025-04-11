@@ -1,8 +1,9 @@
 import React from 'react';
-import Navbar from "./navbar.jsx";
-import Home from "./Home.jsx";
+import Navbar from "./Navbar.jsx";
+
 import Footer from "./Footer.jsx";
-import About from "./About.jsx";
+import { Outlet } from 'react-router-dom';
+
 
 
 
@@ -11,10 +12,8 @@ function MainLayout() {
     <>  
      <Navbar/>
 
-      <Home/>
-      <About/>
-      
-      <Footer/>
+    <Outlet/>
+    <Footer/>
        </>
       
   );
