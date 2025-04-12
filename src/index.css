@@ -1,2 +1,21 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+.p-bar{
+    @apply cursor-pointer rounded-xl px-2 py-1 text-lg text-center font-semibold border border-black;
+    @apply hover:bg-orange-500 hover:text-white;
+}
+
+.animated-underline{
+
+    @apply after:content-[''] after:absolute after:w-full after:h-[4px] after:bg-gradient-to-l after:from-orange-700 after:via-orange-500  after:to-orange-200 after:bottom-0 after:left-0 ;
+    
+}
+
+.section-header{
+    @apply text-5xl font-bold relative pb-4 w-max;
+}
+
+.progress-gradient::-webkit-progress-value{
+    @apply bg-gradient-to-l from-orange-600 via-orange-400 to-orange-300; 
+}

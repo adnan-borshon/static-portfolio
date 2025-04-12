@@ -8,9 +8,9 @@ function Services() {
   return (
     <section className="mb-20">
       <div className="w-full gap-8 flex flex-col items-center">
-        <div>
-          <h1 className="font-bold text-black text-6xl">Services</h1>
-          <p className="p-2 text-xl font-semibold">
+        <div className="flex flex-col items-center">
+          <h1 className="section-header animated-underline">Services</h1>
+          <p className="p-1 text-xl font-semibold">
             All the services i provide
           </p>
         </div>

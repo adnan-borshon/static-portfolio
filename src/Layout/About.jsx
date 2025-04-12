@@ -15,7 +15,7 @@ function About() {
             </div>
           </div>
           <div>
-            <h1 className="text-5xl font-bold">About Me</h1>
+            <h1 className="section-header animated-underline ">About Me</h1>
             <p className="py-6 font-semibold text-lg">
               Hi! I'm a Computer Science student at United International
               University, currently in my 7th trimester. I live in Bangladesh
@@ -26,7 +26,7 @@ function About() {
              <div>
                 <p className="font-bold text-md text-black ">Digital Marketing</p>
                 <progress
-                className="progress w-56"
+                className="progress progress-gradient   w-56 "
                 value={80}
                 max="100"
               >
@@ -36,7 +36,7 @@ function About() {
              <div>
                 <p className="font-bold text-md text-black ">Designing</p>
                 <progress
-                className="progress w-56"
+                className="progress progress-gradient  w-56 "
                 value="70"
                 max="100"
               ></progress>
@@ -46,7 +46,7 @@ function About() {
              <div>
                 <p className="font-bold text-md text-black ">Front End</p>
                 <progress
-                className="progress w-56"
+                className="progress progress-gradient  w-56 "
                 value="100"
                 max="100"
               ></progress>
@@ -55,7 +55,7 @@ function About() {
              <div>
                 <p className="font-bold text-md text-black ">PowerPoint</p>
                 <progress
-                className="progress w-56"
+                className="progress  progress-gradient  w-56 "
                 value="85"
                 max="100"
               ></progress>

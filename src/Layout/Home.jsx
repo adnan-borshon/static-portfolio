@@ -2,6 +2,7 @@ import React from 'react';
 import myImage from '/images/PXL_20240114_134919861.PORTRAIT~4.jpg';
 import About from './About';
 import Services from './services';
+import Projects from './Projects';
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
     <div>
         <p className='font-bold text-2xl'>Hi I am</p>
         <p className='font-bold text-3xl text-orange-400'>Adnan Borshon</p>
-      <h1 className="text-5xl font-bold">Web Developer</h1>
+      <h1 className="section-header animated-underline ">Web Developer</h1>
       <p className="py-6  font-semibold text-lg">
       I'm a dedicated Front-End Web Developer with 6 months of experience creating responsive, user-friendly interfaces using HTML, CSS, JavaScript, and React. Eager to learn, grow, and contribute to impactful projects.
       </p>
@@ -33,7 +34,9 @@ function Home() {
    <section>
     <Services/>
    </section>
-  
+   <section>
+    <Projects/>
+   </section>
  </>
   );
 }
