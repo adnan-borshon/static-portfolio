@@ -17,5 +17,33 @@
 }
 
 .progress-gradient::-webkit-progress-value{
-    @apply bg-gradient-to-l from-orange-600 via-orange-400 to-orange-300; 
+    @apply bg-gradient-to-l from-orange-600 via-orange-400 to-orange-200; 
 }
+
+.web-design-card{
+    @apply grid grid-cols-3 w-[80%] h-[70%];
+
+    
+}
+
+.web-card{
+    @apply p-3 min-w-[40%] ;
+}
+.img-bg{
+    @apply bg-orange-200 h-[80%] rounded-lg w-full relative;
+   
+}
+.img-bg img{
+    @apply p-2 h-full w-full object-fill rounded-xl;
+    
+}
+
+
+.web-card span{
+    @apply text-orange-500 font-semibold;
+}
+
+.web-card h2{
+    @apply text-lg font-semibold;
+}
+

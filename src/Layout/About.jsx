@@ -47,7 +47,7 @@ function About() {
                 <p className="font-bold text-md text-black ">Front End</p>
                 <progress
                 className="progress progress-gradient  w-56 "
-                value="100"
+                value="95"
                 max="100"
               ></progress>
              </div>
