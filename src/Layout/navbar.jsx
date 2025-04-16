@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 
 
 function Navbar() {
+
+
   return (
     <section>
    <div className="navbar bg-base-100 flex shadow-md fixed top-0 w-full z-50 px-4 md:px-10">
@@ -17,8 +19,8 @@ function Navbar() {
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal font-bold gap-4 px-1">
      
-      <Link to="/" className="mt-1.5 mx-2 mx-2">Home </Link>
-      <Link to="/about" className="mt-1.5 mx-2">About Me </Link>
+      <Link to="/" className="mt-1.5 mx-2 mx-2" >Home </Link>
+      <Link to="/about" className="mt-1.5 mx-2" >About Me </Link>
       
       
       <li className="mx-0">

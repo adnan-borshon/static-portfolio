@@ -6,7 +6,7 @@ import WD_3 from '/images/design-3.jpg';
 
 function Projects() {
   return (
-    <section className="mb-20">
+    <section >
     <div className="w-full gap-5 flex flex-col items-center h-full">
       
         <h1 className="section-header animated-underline ">My projects</h1>

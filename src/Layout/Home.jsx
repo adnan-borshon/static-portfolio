@@ -3,7 +3,8 @@ import myImage from '/images/PXL_20240114_134919861.PORTRAIT~4.jpg';
 import About from './About';
 import Services from './services';
 import Projects from './Projects';
-import Services_2 from './Services_2';
+import Testimonials from './Testimonials';
+
 
 function Home() {
   return (
@@ -28,15 +29,19 @@ function Home() {
   </div>
 </div>
    </section>
-   <section>
+   <section id="home-about">
     <About/>
    </section>
 
    <section>
     <Services/>
    </section>
-   <section>
+   <section id="home-projects">
     <Projects/>
+   </section>
+
+   <section>
+    <Testimonials/>
    </section>
 
   

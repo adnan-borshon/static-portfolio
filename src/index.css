@@ -47,3 +47,16 @@
     @apply text-lg font-semibold;
 }
 
+.testimonial-cards{
+    @apply grid grid-cols-5 w-full;
+   @apply flex items-center justify-center;
+}
+
+.testimonial-cards img{
+    @apply object-fill rounded-full col-span-1;
+    @apply w-[30%] p-8;
+
+ }
+ .testimonial-para{
+    @apply col-span-4 p-4 ;
+ }
