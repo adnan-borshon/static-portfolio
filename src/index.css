@@ -53,7 +53,7 @@
 }
 
 .testimonial-cards img{
-    @apply object-fill rounded-full col-span-1;
+    @apply object-fill rounded-[130%] col-span-1;
     @apply w-[30%] p-8;
 
  }

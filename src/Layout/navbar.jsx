@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
 
-
+  
   return (
     <section>
    <div className="navbar bg-base-100 flex shadow-md fixed top-0 w-full z-50 px-4 md:px-10">

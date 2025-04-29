@@ -3,6 +3,8 @@ import myImage from "/images/PXL_20240114_134919861.PORTRAIT~4.jpg";
 import Home from "./Home.jsx";
 
 function About() {
+  
+ 
   return (
 <>
 
